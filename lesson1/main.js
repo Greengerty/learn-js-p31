@@ -10,12 +10,14 @@
 /**
  * Array methods
  */
-//var array = [12, 15, 2, 7, 22, 14, 8];
+var array = [12, 15, 2, 7, 22, 14, 8];
 
-//var res = array.reverse();
+var res = array.reverse();
 //var res = array.join();
 //var res = array.sort();
 
+
+console.log(res);
 /**
  * Array properties
  */
