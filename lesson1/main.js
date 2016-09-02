@@ -53,6 +53,7 @@ console.log(res);
  * Домашнее задание теория
  * -----------------------
  * Система контроля версий git: !!!
+ * Зарегистрироваться на github.com
  * https://www.youtube.com/watch?v=mpK_MYb38zs&list=PLoonZ8wII66iUm84o7nadL-oqINzBLk5g
  *
  * https://learn.javascript.ru/, темы:
