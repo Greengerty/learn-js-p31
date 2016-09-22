@@ -28,8 +28,15 @@ gallery.onmousemove = function(e) {
 
 
 /**
+ * Tеория learn.javascript.ru
+ * Основы работы с событиями
+ * События в деталях
+ * Формы, элементы управления
+ * Создание графических компонентов
+ *
  * 1. Игра парные карты http://igroflot.ru/logic/flash_game_2470/
  * 2. Если картинка снизу экрана выводить ее над курсором
+ * 3. Drag & drop http://www.elated.com/res/File/articles/development/javascript/jquery/drag-and-drop-with-jquery-your-essential-guide/card-game.html
  */
 
 
