@@ -35,3 +35,17 @@
     width: 380px;
     height: 380px;
 }
+
+#list {
+    width: 300px;
+    background: cornsilk;
+    padding: 20px;
+}
+#list li {
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    background: darkturquoise;
+    padding: 10px 20px;
+    cursor: pointer;
+}

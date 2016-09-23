@@ -3,9 +3,7 @@ var gallery = document.getElementById("gallery");
 // Записываем в переменную по id отображение картинки
 var show = document.getElementById("show");
 
-
-// создаю событие наведения мыши
-gallery.onmousemove = function(e) {
+gallery.addEventListener("mousemove", function(e) {
     // проверяем тип обьекта
     if ( e.target.nodeName == 'IMG' ) {
         // отображаем блок картинки
@@ -20,10 +18,11 @@ gallery.onmousemove = function(e) {
         image.src = e.target.attributes.src.nodeValue;
     }
     // функция отвода мыши с блока gallery
-    e.target.onmouseout = function (j) {
+    e.target.addEventListener("mouseout",function (j) {
         show.style.display = "none"
-    }
-};
+    }, false)
+}, false);
+
 
 
 
