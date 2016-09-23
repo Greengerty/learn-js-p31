@@ -11,5 +11,6 @@ list.addEventListener("click", function(e) {
 
 /*
 * Доработать аудио проигрыватель
+* сделать прогресс бар, перемотку, регулятор громкости
 * поставить иконки play, pause, stop https://www.iconfinder.com/
 * */
