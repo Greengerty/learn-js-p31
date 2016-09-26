@@ -4,6 +4,16 @@ var gallery = document.getElementById("gallery");
 var show = document.getElementById("show");
 var currentImage = null;
 
+;(function() {
+    for (var i = 1; i <= 9; i++) {
+        var li = document.createElement('li');
+        var img = document.createElement('img');
+        img.src = "images/" + i + ".jpg";
+        li.appendChild(img);
+        gallery.appendChild(li);
+    }
+})();
+
 gallery.addEventListener("mousemove", function(e) {
     // проверяем тип обьекта
     if ( e.target.nodeName == 'IMG' ) {
