@@ -19,7 +19,7 @@ body {
 }
 
 
-#block {
+#matrix {
     border: 2px solid #cc0000;
     width: 800px;
     height: 600px;
@@ -27,7 +27,7 @@ body {
     position: relative;
 }
 
-#kv {
+#player {
     width: 60px;
     height: 60px;
     background: #ccc;

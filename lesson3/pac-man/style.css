@@ -1,0 +1,51 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#matrix {
+    border: 2px solid #cc0000;
+    width: 520px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background: url("images/pacmanworld.jpg") no-repeat;
+}
+
+#player {
+    width: 60px;
+    height: 60px;
+    background: #ccc;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.block {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #cc0000;
+}
+
+#block1 {
+    top: 63px;
+    left: 36px;
+    width: 451px;
+    height: 10px;
+    border-radius: 5px 5px 0 0;
+}
+#block2 {
+    bottom: 39px;
+    left: 36px;
+    width: 451px;
+    height: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+#block3 {
+    top: 168px;
+    left: 205px;
+    width: 112px;
+    height: 16px;
+    border-radius: 5px;
+}
